@@ -11,9 +11,9 @@ category: NYU Research
 
 Although not collected from the real world, we use highly realistic traffic simulation software to ensure the representativeness of our dataset compared to real-world driving scenarios. To be more exact, the traffic flow of our recording files is managed by CARLA-SUMO co-simulation, and we currently use three town maps from CARLA to increase the diversity of our dataset. 
 
-I functioned as an undergrad research assistant in this project and worked closely with [Yiming Li](https://scholar.google.com/citations?hl=en&user=i_aajNoAAAAJ), who is the project lead and a PhD student at NYU Tandon. 
+I functioned as an undergrad research assistant in this project and worked closely with [Yiming Li](https://scholar.google.com/citations?hl=en&user=i_aajNoAAAAJ), who was the project lead and a PhD student at NYU Tandon. 
 
-Check out the website that I developed [here](https://ai4ce.github.io/V2X-Sim/) for more information and video demo. 
+Check out the website that I developed [here](https://ai4ce.github.io/V2X-Sim/) for more information and a video demo. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
