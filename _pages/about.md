@@ -2,23 +2,26 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="https://www.nyu.edu/">New York University</a>. 6 MetroTech Center, Brooklyn, NY.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>343 Gold St.</p>
+    <p>Brooklyn, NY 11201</p>
+    <p>(863) 303-2399</p>
+    <p>za683 AT nyu DOT edu</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello and thank you for stopping by! My name is Ziyan. Some of my friends call me Annie. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am currently a senior Computer Science student at New York University with a concentration of Mathematics and Machine Learning.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have always been interested in artificial intelligence in general and was part of several applied Machine Learning research projects. Previously, I interned at [Sunthetics](https://sunthetics.io/) as a Machine Learning software engineer under the guidance of Dr. Daniela Blanco and worked as a computer vision research assistant at [AI4CE Lab](https://ai4ce.github.io/) of NYU at the direction of Prof. Chen Feng.
+
+Other than that, I like to read influencer blogs and articles on AI ethics. 
