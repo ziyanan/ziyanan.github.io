@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: <b>TL;DR</b> I was a Computer Science tutor at NYU Polytechnic Tutoring Center for a year and now a Teaching Assistant for the operating systems course at NYU.
-nav: true
+nav: false
 ---
 
 Teaching Assistant for Intro to Operating Systems (CS-UY 3224)
