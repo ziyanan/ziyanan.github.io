@@ -4,29 +4,31 @@ layout: default
 
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">
-     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</span>{% else %}{{ site.title }}{% endif %}
-    </h1>
-     <p class="desc">{{ page.description }}</p>
-  </header>
-
   <article>
-    {% if page.profile %}
-    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-      {% if page.profile.image %}
-        <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
-      {% endif %}
-      {% if page.profile.address %}
-        <div class="address">
-          {{ page.profile.address }}
-        </div>
-      {% endif %}
-    </div>
-    {% endif %}
+    <header class="post-header">
+      <h1 class="post-title">
+       {% if site.title == "blank" %}<span class="font-weight-bold" style="font-family: 'Lora', serif; font-size: 80%;">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</span> <span style="font-family: 'Kaiti SC', 'KaiTi', 'STKaiti', serif; font-weight: normal;">安紫嫣</span>{% else %}{{ site.title }}{% endif %}
+      </h1>
+       <p class="desc">{{ page.description }}</p>
+    </header>
 
-    <div class="clearfix">
-      {{ content }}
+    <div class="about-intro about-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% if page.profile %}
+      <div class="profile">
+        {% if page.profile.image %}
+          <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+        {% endif %}
+        {% if page.profile.address %}
+          <div class="address">
+            {{ page.profile.address }}
+          </div>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <div class="about-body">
+        {{ content }}
+      </div>
     </div>
 
     {% if page.news %}

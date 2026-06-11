@@ -4,6 +4,14 @@
 
 // Typography
 
+body {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.post p, .post li {
+  font-size: 0.95rem;
+}
+
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
@@ -48,16 +56,39 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// Section titles (front page)
+
+.about-body h4,
+.publications h2:not(.year) {
+  font-family: 'Lora', serif;
+  font-size: 1.28rem;
+}
+
 // Profile
 
+.about-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.about-intro.about-right {
+  flex-direction: row-reverse;
+}
+.about-intro .about-body {
+  flex: 1;
+  min-width: 0;
+}
+
 .profile {
-  margin-left: 1rem;
+  flex-shrink: 0;
+  margin-top: 1rem;
   width: 100%;
 
   .address {
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 1rem;
     font-family: monospace;
+    font-size: 0.8rem;
     p {
       display: inline-block;
       margin: 0;
@@ -67,10 +98,16 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 38.2%;
     .address {
       p { display: block; }
     }
+  }
+}
+
+@media (max-width: 575px) {
+  .about-intro {
+    flex-direction: column;
   }
 }
 
@@ -94,6 +131,9 @@ blockquote {
   border-bottom: 1px solid $grey-color-light;
   background-color: var(--global-bg-color);
   opacity: 0.95;
+}
+.navbar-nav .nav-link {
+  text-transform: capitalize;
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -417,6 +457,10 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+        color: var(--global-theme-color);
+      }
+      .author strong {
+        font-style: italic;
       }
       .author {
         a {
