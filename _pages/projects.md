@@ -4,6 +4,7 @@ title: projects
 permalink: /projects/
 description: Some of the research projects I participated in at NYU and elsewhere.
 nav: false
+nav_order: 2
 display_categories: [NYU Research, Sunthetics Internship]
 horizontal: false
 ---

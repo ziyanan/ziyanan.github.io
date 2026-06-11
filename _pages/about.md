@@ -2,22 +2,37 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.isis.vanderbilt.edu/">Vanderbilt University, Department of Computer Science</a>. 1025 16th Ave S, Nashville, TN 37212
+description: '<span style="color: var(--global-theme-color); font-weight: bolder;">PhD student, Vanderbilt University, Department of Computer Science.</span>'
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: profile-pic.jpg
   address: >
-    <p>(863) 303-2399</p>
-    <p>ziyan.an AT vanderbilt DOT edu</p>
+    <p>Contact: 863-303-2399</p>
+    <p>ziyan.an@vanderbilt.edu</p>
+    <p>1025 16th Ave S, Nashville, TN</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a fourth-year Ph.D. student in Computer Science at Vanderbilt University, where I have been awarded the Dean's Graduate Fellowship. I am very fortunate to have the guidance and mentorship of [Prof. Meiyi Ma](https://meiyima.github.io/) as my advisor. 
+I am a Ph.D. student (August 2022 start) in Computer Science at Vanderbilt University and a recipient of the Dean's Graduate Fellowship. I am very grateful for the guidance and mentorship of my advisor, [Dr. Meiyi Ma](https://meiyima.github.io/). I am also fortunate to collaborate with [Dr. Taylor Johnson](https://www.taylortjohnson.com/), [Dr. Jonathan Sprinkle](https://www.isis.vanderbilt.edu/jonathan-sprinkle), and [Dr. Abhishek Dubey](https://my.vanderbilt.edu/dabhishe/) at Vanderbilt. During my Ph.D., I have also interned at UiPath and Uber as an AI and machine learning software engineer.
 
-My primary research interest lies in the design of AI-based systems that integrate formal specifications and leverage prior knowledge. By combining these elements, I aim to develop advanced AI solutions that are more robust, reliable, explainable, and capable of addressing real-world challenges effectively. Another central theme of my work is enhancing the explainability of AI-driven decisions, ensuring that complex systems remain transparent and trustworthy to the people who rely on them. 
+Prior to Vanderbilt, I earned my bachelor's degree in Computer Science from New York University (2018–2022), where I served as an undergraduate research assistant at the [AI4CE Lab](https://ai4ce.github.io/), working on computer vision and autonomous driving in close collaboration with [Dr. Yiming Li](https://yimingli-page.github.io/) and PI [Dr. Chen Feng](http://ai4ce.github.io/).
 
-Prior to joining Vanderbilt University, I earned my B.S. in Computer Science from New York University. During my academic journey, I had the invaluable opportunity to intern at Sunthetics, UiPath, and Uber as an AI and Machine Learning software engineer. Additionally, I was an undergraduate research assistant at [AI4CE Lab](https://ai4ce.github.io/) at NYU, under the mentorship of Prof. Chen Feng, where I worked on projects in computer vision. 
+#### Research Overview
+
+My research integrates formal methods with deep learning and artificial intelligence (AI) to build **explainable and trustworthy systems**. In particular, I work on enabling AI-based cyber-physical systems (CPS) to reason about symbolic properties, satisfy formal specifications, and explain their behavior to human stakeholders.
+
+I aim to develop AI-enabled systems that combine strong empirical performance with reliability, interpretability, and formal guarantees. This research direction is motivated by the increasing deployment of AI in safety-critical CPS, including transportation and smart infrastructure, where predictive accuracy alone is insufficient. Toward this goal, I investigate how symbolic reasoning and formal methods can guide learning algorithms and provide rigorous explanations for sequential decision-making systems, contributing to the development of trustworthy AI.
+
+#### Interests & Contributions
+
+My work sits at the intersection of formal methods, explainable AI, deep learning, CPS, and safe AI. Representative directions include:
+
+- Formal logic-guided AI and deep learning
+- Logic-based runtime monitoring for AI-enabled systems
+- Trustworthy AI through logic-based explanations and large language models
+
+These have appeared in top AI and CPS venues including AAAI, AAMAS, ICCPS, IJCAI, as well as journals such as IEEE Transactions on Intelligent Transportation Systems (T-ITS) and ACM Transactions on Cyber-Physical Systems.
