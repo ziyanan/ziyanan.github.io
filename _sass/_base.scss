@@ -421,8 +421,8 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-light;
-    border-top: 1px solid $grey-color-light;
+    color: lighten($grey-color, 20%);
+    border-top: 1px solid lighten($grey-color, 20%);
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -461,6 +461,7 @@ footer.sticky-bottom {
       }
       .author strong {
         font-style: italic;
+        text-decoration: underline;
       }
       .author {
         a {
