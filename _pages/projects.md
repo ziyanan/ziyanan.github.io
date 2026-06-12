@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Some of the research projects I participated in at NYU and elsewhere.
 nav: false
