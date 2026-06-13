@@ -23,9 +23,9 @@ Prior to Vanderbilt, I earned my bachelor's degree in Computer Science from New 
 
 #### Research Overview
 
-My research integrates formal methods with deep learning and artificial intelligence (AI) to build **explainable and trustworthy systems**. In particular, I work on enabling AI-based cyber-physical systems (CPS) to reason about symbolic properties, satisfy formal specifications, and explain their behavior to human stakeholders.
+My research integrates formal methods with deep learning and artificial intelligence (AI) to build trustworthy AI-enabled cyber-physical systems (CPS). I focus on intelligent systems that can reason about symbolic properties, satisfy formal specifications, and explain their behavior to human stakeholders.
 
-I aim to develop AI-enabled systems that combine strong empirical performance with reliability, interpretability, and formal guarantees. This research direction is motivated by the increasing deployment of AI in safety-critical CPS, including transportation and smart infrastructure, where predictive accuracy alone is insufficient. Toward this goal, I investigate how symbolic reasoning and formal methods can guide learning algorithms and provide rigorous explanations for sequential decision-making systems, contributing to the development of trustworthy AI.
+My research direction is motivated by the growing deployment of AI in safety-critical domains such as transportation and smart infrastructure, where predictive accuracy alone is insufficient. Toward this goal, I investigate how to design formal specification languages and how symbolic reasoning and formal methods can guide learning algorithms, support runtime monitoring, and provide rigorous explanations for sequential decision-making systems.
 
 #### Interests & Contributions
 
@@ -33,6 +33,6 @@ My work sits at the intersection of formal methods, explainable AI, deep learnin
 
 - Formal logic-guided AI and deep learning
 - Logic-based runtime monitoring for AI-enabled systems
-- Trustworthy AI through logic-based explanations and large language models
+- Trustworthy AI through logic-based explanations and LLMs
 
 These have appeared in top AI and CPS venues including AAAI, AAMAS, ICCPS, IJCAI, as well as journals such as IEEE Transactions on Intelligent Transportation Systems (T-ITS) and ACM Transactions on Cyber-Physical Systems.
