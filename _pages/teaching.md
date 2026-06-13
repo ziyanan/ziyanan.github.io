@@ -30,9 +30,9 @@ nav_order: 3
 
 <div class="role-title">Computer Science Tutor at NYU Polytechnic Tutoring Center</div>
 <ul>
-<li>Subjects included Programming and Problem Solving (CS-UY 1114) and Data Structures (CS-UY 1134) </li>
+<li>Courses included Programming and Problem Solving (CS-UY 1114) and Data Structures (CS-UY 1134) </li>
 <li>Instructed a group of up to 5 students at a time on Python programming for 10 hours a week </li>
-<li>Held exam review sessions collaboratively with other tutors for 50+ students per meeting </li>
+<li>Held exam review sessions for 50+ students per meeting </li>
 </ul>
 
 </div>
