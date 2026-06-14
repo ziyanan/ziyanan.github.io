@@ -115,10 +115,10 @@ blockquote {
   margin-bottom: 2rem;
   font-size: 0.875rem;
   a {
-    color: inherit;
+    color: var(--global-theme-color);
     &:hover {
       color: var(--global-theme-color);
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 }
@@ -372,8 +372,19 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+    .card-img {
+      height: auto;
+      img {
+        height: auto;
+        object-fit: contain;
+      }
+    }
     .card-title {
       color: $black-color;
+      font-size: 1.4rem;
+    }
+    .card-text {
+      font-size: 0.95rem;
     }
   }
 
@@ -399,6 +410,39 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+  }
+
+  .project-intro {
+    margin-bottom: 2rem;
+    h3 {
+      color: var(--global-theme-color);
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+.related-pubs-title {
+  color: var(--global-theme-color);
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul.related-pubs {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+
+  .pub-title {
+    font-weight: bold;
   }
 }
 

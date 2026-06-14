@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications by year; project details coming soon.
+description: 'Publications by year; for project details, see <a href="/projects/">Projects</a>.'
 years: [2026, 2025, 2024, 2023, 2022, 2021]
 nav: true
 nav_order: 1
