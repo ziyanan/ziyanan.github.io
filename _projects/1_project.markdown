@@ -1,10 +1,10 @@
 ---
 layout: page
-title: V2X-Sim
-description: The First Public Large-scale Collaborative Perception Dataset 
+title: V2X Simulated Autonomous Driving Dataset and Benchmark
+description: The first public, synthetic, collaborative (V2V, V2I) perception dataset and benchmarks for autonomous driving.
 img: /assets/img/Cars-Intersections.PNG
 importance: 1
-category: NYU Research
+category: Research at NYU
 ---
 
  V2X-Sim, short for vehicle-to-everything simulation, is the first synthetic collaborative perception dataset in autonomous driving developed by AI4CE Lab at NYU and MediaBrain Group at SJTU to facilitate collaborative perception between multiple vehicles and roadside infrastructure. We collect data from both roadside and vehicles when they are presented near the same intersection. With information from both the roadside infrastructure and vehicles, the dataset aims to encourage research on collaborative perception tasks.

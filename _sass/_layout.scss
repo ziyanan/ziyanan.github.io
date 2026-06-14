@@ -22,6 +22,18 @@
   max-width: $max-content-width;
 }
 
+// Narrower, more readable text column on individual project pages
+body.project-page .container .post {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Plain figures (no drop shadow) on individual project pages
+body.project-page .post img {
+  box-shadow: none !important;
+}
+
 // Profile
 .profile {
   img {
