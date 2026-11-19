@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ziyan
 middle_name: 
 last_name: An
-email: ziyan.an@vanderbilt.edu
+email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ph.D. student at Vanderbilt University. Research interests: Cyber-Physical Systems, Formal Methods, Explainable AI.
 footer_text: >
@@ -47,11 +47,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: ziyanan # your GitHub user name
+github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: ziyan-an-cs # your LinkedIn user name
-scholar_userid: K4sxIwkAAAAJ # your Google Scholar ID
+linkedin_username: # your LinkedIn user name
+scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
