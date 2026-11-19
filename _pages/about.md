@@ -7,10 +7,6 @@ description: '<span style="color: var(--global-theme-color); font-weight: bolder
 profile:
   align: left
   image: profile-pic.jpg
-  address: >
-    <p>Contact: 863-303-2399</p>
-    <p>ziyan.an@vanderbilt.edu</p>
-    <p>1025 16th Ave S, Nashville, TN</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
